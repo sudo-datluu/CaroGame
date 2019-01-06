@@ -1,17 +1,17 @@
 package GameDriver;
 
-import javafx.geometry.Insets;
-import javafx.scene.layout.FlowPane;
+import javafx.scene.Group;
 
 public class Driver {
-    private FlowPane root;
+    public static int WIDTH = 1260, HEIGHT = 630;
+
+    private Group root;
 
     public Driver() {
-        root = new FlowPane();
-        root.setPadding(new Insets(20));
+        root = new Group();
     }
 
-    public FlowPane getRoot() {
+    public Group getRoot() {
         return root;
     }
 }

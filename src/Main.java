@@ -13,7 +13,8 @@ public class Main extends Application {
 
         Board board = new Board(driver);
 
-        primaryStage.setScene(new Scene(driver.getRoot(), 1200, 800));
+        Scene scene = new Scene(driver.getRoot(), Driver.WIDTH, Driver.HEIGHT);
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 
