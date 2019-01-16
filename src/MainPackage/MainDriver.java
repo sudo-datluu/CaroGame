@@ -1,3 +1,5 @@
+package MainPackage;
+
 import Board.Board;
 import GameDriver.Driver;
 import javafx.application.Application;
@@ -22,7 +24,6 @@ public class MainDriver extends Application {
 
 
     public static void main(String[] args) {
-        System.out.println(MainDriver.class.getResourceAsStream("Asset/Square.jpg"));
         launch(args);
     }
 }
